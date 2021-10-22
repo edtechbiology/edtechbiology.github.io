@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700|Grand+Hotel&display=swap&effect=shadow-multiple|anaglyph|fire-animation');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.edtechbio {
+    background: url(./biobg.jpg) center center no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgba(236, 236, 238, 0.753);
+    padding: 10px;
+    min-width: 70%;
+    text-align: center;
+}
+
+.logo{
+    color: rgb(102, 99, 233);
+}
+.logo__bio{
+    color: rgb(219, 34, 34)
+}
+.batch_link{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    margin-bottom: 14px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 80%;
+    font-weight: bold;
+}
+.philosopher{
+    background: rgb(235, 63, 10)
+}
+.chamber{
+    background: rgb(6, 231, 138)
+}
